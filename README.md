@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
--[Solution URL]()
--[Live Site URL:]()
+-[Solution URL](https://github.com/doomyhub229/-27Interactive-rating-component)
+-[Live Site URL:](https://doomyhub229.github.io/-27Interactive-rating-component/)
 
 ## My Process
 
