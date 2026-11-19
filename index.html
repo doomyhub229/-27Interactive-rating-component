@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+    href="https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+    rel="stylesheet" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+</head>
+
+<body>
+
+  <main>
+    <!-- Rating state start -->
+
+    <form class="rating-card">
+      <img src="./images/icon-star.svg" alt="">
+      <h1>How did we do?</h1>
+      <p>Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!</p>
+
+      <fieldset class="rating">
+        <legend>Choose a rating from 1 to 5</legend>
+
+        <label>
+          <input type="radio" name="rating" value="1">
+          <span>1</span>
+        </label>
+
+        <label>
+          <input type="radio" name="rating" value="2">
+          <span>2</span>
+        </label>
+
+        <label>
+          <input type="radio" name="rating" value="3">
+          <span>3</span>
+        </label>
+
+        <label>
+          <input type="radio" name="rating" value="4">
+          <span>4</span>
+        </label>
+
+        <label>
+          <input type="radio" name="rating" value="5">
+          <span>5</span>
+        </label>
+      </fieldset>
+
+      <div>
+        <button class="submit-btn" type="submit">Submit</button>
+      </div>
+    </form>
+
+    <!-- Rating state end -->
+
+    <!-- Thank you state start -->
+
+    <div class="thank-you-card" hidden>
+
+      <img src="./images/illustration-thank-you.svg" alt="">
+
+      <div class="rating-result">
+        You selected <span id="selected-rating"></span> out of 5
+      </div>
+      
+      <h1 tabindex="-1"> Thank you!</h1>
+
+      <p>We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!</p>
+    </div>
+
+    <!-- Thank you state end -->
+  </main>
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
